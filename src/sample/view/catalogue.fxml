@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #0C0149;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemCatalogueController">
+   <children>
+      <AnchorPane prefHeight="67.0" prefWidth="800.0" style="-fx-background-color: #FF3B71;">
+         <children>
+            <Label layoutX="66.0" layoutY="11.0" prefHeight="33.0" prefWidth="157.0" text="Catlogue" textFill="#0c0149">
+               <font>
+                  <Font name="lazer84" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/menuIcon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="548.0" fitWidth="323.0" layoutX="480.0" layoutY="52.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/PolygonCoqtail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="53.0" layoutX="238.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/CocktailAddIcon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="170.0" layoutY="268.0" text="Créer votre premier Cocktail :" textFill="#da4e96">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
